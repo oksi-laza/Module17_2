@@ -2,7 +2,7 @@ from app.backend.db import Base
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.schema import CreateTable    # для вывода SQL-запроса в консоли
-from app.models.user import *
+from app.models import *
 
 
 class Task(Base):
